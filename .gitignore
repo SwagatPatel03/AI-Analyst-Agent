@@ -1,0 +1,102 @@
+# Ignore all markdown files except README.md and docs/README.md
+*.md
+!README.md
+!docs/README.md
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads and outputs
+backend/uploads/*
+backend/outputs/*
+backend/ml_models/*.pkl
+!backend/uploads/.gitkeep
+!backend/outputs/.gitkeep
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# Python virtual environments
+.venv/
+env.bak/
+
+# Secrets and credentials
+secrets.json
+*.pem
+*.key
+*.crt
+*.p12
+*.db
+
+# Coverage and test
+.coverage
+coverage/
+htmlcov/
+pytest_cache/
+.mypy_cache/
+.tox/
+.pytest_cache/
+
+# Misc
+*.bak
+*.tmp
+*.cache
+*.log
+*.sqlite3
+*.h5
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+*.tar
+*.7z
+*.rar
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.iml
+*.ipr
+*.iws
+*.orig
+*.rej
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+
+# System
+ehthumbs.db
+Icon?
+Desktop.ini
+__MACOSX/
+
+microsoft_annual_report.pdf

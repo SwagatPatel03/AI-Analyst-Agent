@@ -1,0 +1,15 @@
+# Email Pipeline Dependencies
+# Minimal requirements to run standalone email pipeline
+
+# Core dependencies
+groq==0.11.0              # LLM API for investment analysis
+sendgrid==6.11.0          # Email sending service
+sqlalchemy==2.0.23        # Database ORM
+psycopg2-binary==2.9.9    # PostgreSQL driver
+python-dotenv==1.0.0      # Environment variable management
+
+# Optional (if using main app's database)
+alembic==1.12.1          # Database migrations
+
+# Note: If running standalone, ensure backend/app/database.py is accessible
+# for database connection configuration
