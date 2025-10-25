@@ -1,3 +1,11 @@
+# Ignore testing scripts
+test_*.py
+*_test.py
+tests/
+**/tests/
+**/test_*.py
+**/*_test.py
+**/testing/
 # Ignore all markdown files except README.md and docs/README.md
 *.md
 !README.md
@@ -100,3 +108,5 @@ Desktop.ini
 __MACOSX/
 
 microsoft_annual_report.pdf
+
+test_agentic_analyst.py
